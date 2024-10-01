@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Welcome to Chakshu's Data Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!-- <style>
+			/* Add this CSS to your stylesheet or within a <style> tag */
+			.icon:hover img {
+				filter: brightness(0) saturate(100%) invert(27%) sepia(61%) saturate(3317%) hue-rotate(150deg) brightness(98%) contrast(104%);
+			}
+		</style> -->
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Header -->
+					<header id="header">
+						<!-- <div id="intro"><br/><span>Welcome to Chakshu's Data Portfolio</span></div> -->
+						<a href="index.html">Stock Market Analysis – For Apple, Google & Microsoft</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About Me</a></li>
+							<li class="active"><a href="projects.html">Projects</a></li>
+							<li><a href="resume.html">Résumé</a></li>
+							<!-- <li><a href="blogs.html">Blog</a></li> -->
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+							<li><a href="mailto:madan.chakshu@gmail.com" class="icon fas fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.tableau.com" class="icon" style="display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
+								<img src="images/tableau-software.svg" alt="Tableau" style="width:20px; height:20px; margin-top: 20px; transition: filter 0.3s ease;">
+								<span class="label">Tableau</span>
+							</a></li>
+							<!-- <li><a href="https://www.tableau.com" class="icon"><img src="images/tableau-software.svg" alt="Tableau" style="width:20px; height:20px;margin-top:18px; transition: filter 0.3s ease;"><span class="label">Tableau</span></a></li> -->
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+						<article class="post featured">
+							<div>
+								<!-- <header class="major"> -->
+									<h4 align="right">
+										<a href="javascript:window.history.back();">Go Back</a>
+									</h4>
+									<p style="line-height: 1.2; text-align: justify; text-align-last: left; font-size: 14px; font-family: Arial, sans-serif;">
+										
+										<b>Stock Market Analysis – For Apple, Google & Microsoft</b> by extracting the data from the MarketStack API. <br/><br/>
+
+										<img src="images/Project2_SS1.jpg" height="500" width="600" style="border: 5px solid #E9C46A; border-radius: 10px;">
+
+										<br/><br/>
+
+										<b>About Market Stack</b><br/>
+										   1) Marketstack is a financial market data API that provides real-time, intraday, and historical stock market data.<br/>
+										   2) Marketstack offers API of a stock market data solution for both developers and companies.<br/>
+										   3) Marketstack API support more than 170,000 stock tickers from more than 70 global stock markets.<br/>
+										   <br/>
+										<b>Reference Links:</b><br/>
+										<a href="https://marketstack.com/documentation">https://marketstack.com/documentation</a>
+										<br/><br/>
+										<b>Data Extracted:</b><br/>
+											1)	Data as of 16 August 2024<br/>
+											2)	Data from 1 January 2024 to 16 August 2024 (YTD)<br/>
+										<br/>
+										<b>Problem Statement:</b><br/>
+											This project aims to analyze stock market data using the Marketstack API to help investors make informed decisions. By retrieving real-time and historical data for selected stocks (such as Apple, Microsoft, and Google), the goal is to identify trends and compare stock performance over time. The data needs to be cleansed, transformed from raw to aggregated form, and processed for visualization. This allows us to spot patterns in market behavior and track key metrics such as price changes and performance indicators. These insights are essential for investors and financial analysts to understand market movements, compare stocks, and develop more informed strategies for investment and risk management.
+											<br/><br/>
+											<b>Utilized functionality in Databricks:</b><br/>
+											•	REST API Support<br/>
+											•	PySpark<br/>
+											•	Databricks Python<br/>
+											•	Databricks SQL<br/>
+											•	Compute<br/>
+											•	Job Scheduling and Automation<br/>
+											•	Workspace<br/>
+											•	Catalog<br/>
+											•	Notebooks<br/><br/>
+										<b> Dashboard Overview:</b> Collected and analyzed stock market data using SQL, Python, and PySpark to create visual insights that helped improve investment decisions and track market trends. Retrieved data from the API, saved it as a CSV file in the Databricks File System (DBFS), and organized it into clear, structured formats for analysis. Also, created visual reports in Microsoft PowerPoint to showcase important market trends and key performance metrics for better understanding and decision-making.
+										<br/><br/>	
+										<b>Here are some key insights:</b>
+										<br/>
+											1)	Trend of Stock Prices - Apple, Google, Microsoft: Over time, all companies have shown positive price movement, reflecting overall market growth. Notably, Microsoft’s stock price has consistently been higher compared to Apple and Google, indicating higher valuation.<br/>
+											2)	Trend of Trading Volume - Apple, Google, Microsoft: Trading volume trends show that while all companies have experienced growth, Apple's trading volume has notably surged compared to Microsoft and Google.<br/>
+											3)	Highest / Lowest Price in 2024 - Apple, Google, Microsoft: Microsoft's average high and low stock prices are significantly higher than Apple and Google.<br/>
+											4)	Daily Stock returns in 2024 - Apple, Google, Microsoft: - Return trend of Microsoft declined from Q1 to Q3, even though Microsoft was the best performer in Q1 among the three companies. Apple and Google displayed the highest return in Q2 and followed the downward trend in Q3.<br/>
+										<br/><br/>
+										<b> Click here to see >> <a href="https://github.com/ChakshuM/Marketstack-API-Stock-Data-Analysis-and-Visualization">GitHub</a></b>
+										
+										<br/><br/>
+										<img src="images/Project2_SS5.jpg" height="550" width="800" style="border: 5px solid #E9C46A; border-radius: 10px;">
+
+										<br/><br/>
+										<img src="images/Project2_SS6.jpg" height="400" width="800" style="border: 5px solid #E9C46A; border-radius: 10px;">
+										
+										</p>
+								<!-- </header> -->
+							</div>
+							
+						</article>
+						
+						
+						
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<!-- <p>Wild Briarway<br /> -->
+								<p>Toronto, Ontario, M2L 2L5</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(437) 443-8032</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">madan.chakshu@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Connect</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-power-bi"><span class="label">PowerBI</span></a></li>
+									<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:madan.chakshu@gmail.com" class="icon fas fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://www.tableau.com" class="icon" style="display: inline-flex; align-items: center; text-decoration: none; color: inherit;">
+										<img src="images/tableau-software.svg" alt="Tableau" style="width:20px; height:20px; margin-top: 14px; transition: filter 0.3s ease;">
+										<span class="label">Tableau</span>
+									</a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<!-- <script src="assets/js/currentdate.js"></script> -->
+
+	</body>
+</html>
